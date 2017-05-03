@@ -17,5 +17,5 @@ var h = require('preact').h
 h(Lively, {
   onload: el => console.log('Here I am!'),
   onunload: el => console.log('There I go!')
-}, [...children])
+}, children)
 ```
