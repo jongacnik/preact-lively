@@ -19,3 +19,11 @@ h(Lively, {
   onunload: el => console.log('There I go!')
 }, children)
 ```
+
+jsx
+
+```js
+<Lively onload={el => {}} onunload={el => {}}>
+  Hello
+</Lively>
+```
